@@ -1,7 +1,7 @@
 import org.apache.spark.{SparkConf, SparkContext}
 
 /**
-  * This is an example of finding common friends from users
+  * This is an example of finding common friends of users
   * and it needs to enter two parameters
   * The first arg should be the path of the input file,and the format of the file is (user:fried1,fried2......)
   * The second arg should be the path of the output file,and the format of the file is (user1-user2:fried1,fried2......)
